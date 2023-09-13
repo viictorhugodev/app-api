@@ -18,6 +18,10 @@ El api que consumimos para este proyecto es: https://myfakeapi.com/api/users/
 
 La app cuenta con dos vistas: -La primera muestra un llamado a la API donde listamos los primeros 30 registros de la respuesta que nos devuelve. Mostrando datos relevantes para crear un ID para usuarios.
 
+## Continua descripción
+
+La segunda vista de acuerdo al requerimiento del ejercicio unicamente muestra una imagen estatica en la ruta /imagen
+
 
 
 
