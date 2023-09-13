@@ -1,0 +1,18 @@
+<div class="containermain">
+  <div class="container" *ngIf="data">
+    <!-- <h1>Datos de la API:</h1> -->
+
+      <div *ngFor="let item of dataSlice" class="card">
+        <img [src]="item.avatar" alt="Avatar" class="avatar">
+        <div class="card-content">
+          <h2 class="name">{{ item.first_name }} - {{ item.last_name }}</h2>
+          <p class="email">{{ item.email }}</p>
+          <p class="gender">Género: {{ item.gender }}</p>
+          <p class="position">Puesto: {{ item.job_title }}</p>
+        </div>
+      </div>
+
+    </div>
+    <button class="btn" (click)="redireccionar()">Ir a la imagen</button>
+</div>
+
