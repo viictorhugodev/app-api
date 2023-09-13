@@ -20,7 +20,9 @@ La app cuenta con dos vistas: -La primera muestra un llamado a la API donde list
 
 ## Continua descripción
 
-La segunda vista de acuerdo al requerimiento del ejercicio unicamente muestra una imagen estatica en la ruta /imagen
+La segunda vista de acuerdo al requerimiento del ejercicio unicamente muestra una imagen estatica en la ruta /imagen.
+
+El ejercicio aplica unicamente un css básico dado que la prioridad de este era lograr la funcionalidad.
 
 
 
